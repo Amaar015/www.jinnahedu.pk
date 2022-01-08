@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navebar{
+    display: flex;
+    /* position: fixed; */
+    }
+    /* listitem */
+    #navebar  ul{
+        margin-left: 200px;
+    display: flex;
+    position:fixed;
+    }
+    #navebar::before{
+        content: " ";
+        background-color: rgba(24, 226, 209, 0.911);
+        margin-top: -10px;
+        position:fixed;
+        height: 10%;
+        width: 110%;
+        margin-left: -8px;
+     
+    }
+    #navebar ul li{
+        margin-left: 40px;
+        margin-top: 20px;
+        list-style: none;
+        font-size: 1.3rem;
+    }
+    #navebar ul li a{
+        margin-left: 30px;
+    display:block;
+    border-left: solid;
+    position:relative;
+    color:blue;
+    text-decoration: none;
+    }
+    #navebar ul li a:hover{
+        color:white;
+        background-color: blue;
+        border-radius: 6px;
+    }
+    #navebar ul li a:active{
+        color:black;
+        background-color: rgba(4, 218, 15, 0.849);
+    }
+    #search{
+        height: 15px;
+        width: 80px;
+        margin-left: 200px;
+        margin-top: 21px;
+
+    }
+    #button{
+        height: 20px;
+        width: 60px;
+        background-color: aquamarine;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        /* margin-left: 100px; */
+        margin-top: 20px;
+
+    }
+
+    /* Acadmics */
+    #Acad{
+        content: "";
+        height: 980px;
+        width: 1348px;
+     margin-top: -50px;
+     background: url("bg.jpg");
+     background-position:center;
+     position: absolute;
+     background-size: cover;
+     background-repeat: no-repeat;
+     z-index: -1;
+     
+    }
+
+    #kas{
+        margin-top: 140px;
+        margin-left: 20px;
+        background: url("schoos.jpg");
+        height: 180px;
+        width: 300px;
+        /* overflow: hidden; */
+        animation: school;
+        animation-duration: 20s;
+        animation-delay: 6s;
+        animation-iteration-count: infinite;
+          
+    }
+       
+       @keyframes school{
+        
+        40%{
+         background: url("school4.jpeg");
+         
+ }
+ 60%{
+     background: url("school2.jpg");
+}
+100%{
+ background: url("schools5.jpeg");
+}}
+       #kas:hover{
+         transform:scale(1.1);
+         /* z-index: 2; */
+       }
+       #pri{
+        font-size: 2.3rem;
+        margin-top: -190px;
+        margin-left: 350px;  
+       }
+
+       #primary{
+           color: #fff;
+           font-size: 1.2rem;
+           /* margin-top: -10px; */
+           margin-left: 330px;
+       }
+       
+
+  
+
+       #kass{
+        margin-top: 40px;
+        margin-left: 570px;
+        background: url("schools1.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        height: 180px;
+        width: 300px;
+        animation: engineer;
+        animation-duration: 20s;
+        animation-delay: 6s;
+        animation-iteration-count: infinite;
+       }
+       @keyframes engineer{
+        
+        40%{
+         background: url("end.jpeg");
+         
+ }
+ 60%{
+     background: url("engineer.jpeg");
+}
+100%{
+ background: url("com.jpg");
+}}
+       
+       #kass:hover{
+         transform:scale(1.1);
+         /* z-index: 2; */
+       }
+       #second{
+        font-size: 2.3rem;
+        margin-top: -190px;
+        margin-left: 40px;  
+       }
+
+       #secondary{
+           color: #fff;
+        font-size: 1.2rem;
+        /* margin-top: -20px; */
+        margin-left: 20px;
+    }
+
+    #image{
+        margin-top: 50px;
+        margin-left: 20px;
+        background: url("comr1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        height: 180px;
+        width: 300px;
+        animation: computer;
+        animation-duration: 20s;
+        animation-delay: 6s;
+        animation-iteration-count: infinite;
+       }
+       @keyframes computer{
+        
+        40%{
+         background: url("prof.jpg");
+         
+ }
+ 60%{
+     background: url("htmls.jpg");
+}
+100%{
+ background: url("eng.jpeg");
+}}
+       
+       #image:hover{
+         transform:scale(1.1);
+         /* z-index: 2; */
+       }
+
+       #third{
+        font-size: 2.3rem;
+        
+        margin-top: -190px;
+        margin-left: 370px;  
+       }
+
+       #thirds{
+           
+color: #fff;
+           font-size: 1.2rem;
+           /* margin-top: -20px; */
+           margin-left: 330px;
+       }
+
+       #medi{
+        margin-top: 40px;
+        margin-left: 570px;
+        background: url("medi.jpeg");
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        height: 180px;
+        width: 300px;
+        animation: medical;
+        animation-duration: 20s;
+        animation-delay: 8s;
+        animation-iteration-count: infinite;
+       }
+       @keyframes medical{
+        
+        33%{
+         background: url("kdlfdf.jpg");
+         
+ }
+ 66%{
+     background: url("mejdiffa.jpg");
+}
+100%{
+ background: url("medicae.jpg");
+}}
+       
+       #medi:hover{
+         transform:scale(1.1);
+         /* z-index: 2; */
+       }
+       #fourth{
+        font-size: 2.3rem;
+        margin-top: -190px;
+        margin-left: 40px;  
+       }
+
+       #fourthy{
+           color: #fff;
+        font-size: 1.2rem;
+        /* margin-top: -20px; */
+        margin-left: 20px;
+    }
+
+    #foot{
+        height: 200px;
+        width: 1350px;
+        background-color: rgb(6, 9, 39);
+        margin-bottom: -10px;
+        margin-left: -2px;
+        margin-top: 900px;
+    }
+
+    #about{
+        width: 450px;
+        height: 200px;
+        /* background-color: silver; */
+        border-right: 2px solid rgb(135, 150, 114);
+    }
+
+    #contect{
+        margin-top: -200px;
+        width: 900px;
+        height: 200px;
+        /* background-color: silver; */
+        border-right: 2px solid rgb(135, 150, 114);
+    }
+   

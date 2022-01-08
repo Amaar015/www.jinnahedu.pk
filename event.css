@@ -1,0 +1,427 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+  background: rgb(88, 219, 180);
+  height: 80px;
+  width: 100%;
+}
+
+label.logo{
+  color: rgb(253, 250, 253);
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 80px;
+  font-weight: bold;
+  
+}
+
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 20px;
+}
+
+nav ul li a{
+  color: rgb(11, 76, 197);
+  font-size: 17px;
+/* padding: 5px 2px; */
+border-radius: 3px;
+font-weight: bold;
+}
+
+a.active, a:hover{
+  background: #0a2ab9fd;
+  transition: .5s;
+  color:  rgb(88, 219, 180);;
+}
+
+.checkbtn{
+  font-size: 20px;
+  color: rgb(11, 76, 197);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+@media (max-width: 1122px)
+{
+  label.logo{
+      font-size:  25px;
+      /* margin-left: -15px; */
+  }
+
+  nav ul li a{
+      font-size: 15px;
+      margin-left: 10px;
+  }
+}
+
+@media (max-width: 1048px)
+{
+  label.logo{
+      font-size:  20px;
+  }
+
+  nav ul li a{
+      font-size: 12px;
+      margin-left: 10px;
+  }
+}
+
+@media (max-width: 420px)
+{
+  label.logo{
+      font-size:  10px;
+      padding: 18px;
+  }
+
+}
+@media (max-width: 290px)
+{
+  label.logo{
+      font-size:  6px;
+font-weight: lighter;
+      padding: 18px;
+  }
+
+}
+
+@media (max-width: 952px)
+{
+  label.logo{
+      font-size:  18px;
+      margin-left: -15px;
+  }
+
+  nav ul li a{
+      font-size: 12px;
+  }
+}
+
+@media (max-width: 894px){
+  .checkbtn{
+      display: block;
+  }
+  ul{
+      position:fixed;
+      width: 100%;
+      height: 140vh;
+      background: #0e1c2c;   
+      top: 70px;
+      left: -100%;
+      text-align: center;
+      transition: all .2s;
+  }
+  nav ul li{
+      display: block;
+      margin: 20px 0;
+      line-height: 30px;
+
+  }
+
+  nav ul li a{
+      font-size: 15px;
+
+  }
+
+  a:hover, a.active{
+      background: none;
+      color: #0082e6;
+      
+  }
+
+  #check:checked ~ ul{
+      left: 0;
+  }
+}
+
+section{
+  height: 100vh;
+  width: 1367px;
+  background: url("bg.jpg");
+  background-position: right;
+  position:fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+h1{
+  font-style: oblique;
+  font-size: 2.5rem;
+  color: rgb(199, 175, 41);
+  margin-left: 450px;
+  margin-top: 80px;
+}
+
+
+#box-1{
+  border: 2px solid #000;
+  width: 280px;
+  margin-left: 200px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+#image1{
+width: 100%;
+height: 300px;
+}
+#content{
+  background:rgba(0,0,0,0.8);
+  
+  position: absolute;
+  color: #fff;
+  padding: 20px;
+font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+#box-1:hover #content{
+  left: 0;
+}
+#content p{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+
+#box-2{
+  border: 2px solid #000;
+  width: 280px;
+  margin-left: 200px;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+#image2{
+width: 100%;
+height: 300px;
+}
+#content2{
+  background:rgba(0,0,0,0.8);
+  
+  position: absolute;
+  color: #fff;
+  padding: 20px;
+font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+#box-2:hover #content2{
+  left: 0;
+}
+#content2 p{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+#box-3{
+  border: 2px solid #000;
+  width: 280px;
+  margin-left: 550px;
+  margin-top: -200px;
+   position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+#image3{
+width: 100%;
+height: 300px;
+}
+#content3{
+  background:rgba(0,0,0,0.8);
+  
+  position: absolute;
+  color: #fff;
+  padding: 20px;
+font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+#box-3:hover #content3{
+  left: 0;
+}
+#content3 p{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+#box-4{
+  border: 2px solid #000;
+  width: 280px;
+  margin-left: 550px;
+  margin-top: -440px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+#image4{
+width: 100%;
+height: 300px;
+}
+#content4{
+  background:rgba(0,0,0,0.8);
+  
+  position: absolute;
+  color: #fff;
+  padding: 20px;
+font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+#box-4:hover #content4{
+  left: 0;
+}
+#content4 p{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+@media (max-width: 850px){
+  h1{
+    font-style: oblique;
+    font-size: 2.5rem;
+    color: rgb(199, 175, 41);
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+  
+  
+  #box-1{
+    border: 2px solid #000;
+    width: 280px;
+    margin-left: 120px;
+    /* position: relative; */
+    overflow: hidden;
+    height: 200px;
+  }
+
+ 
+#box-2{
+  border: 2px solid #000;
+  width: 280px;
+  margin-left: 120px;
+  margin-top: 300px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+} 
+
+#box-3{
+  border: 2px solid #000;
+  width: 280px;
+  margin-left: 120px;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+
+#box-4{
+  border: 2px solid #000;
+  width: 280px;
+  margin-left: 120px;
+  margin-top: -700px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+} 
+
+}
+
+
+
+@media (max-width: 425px){
+  h1{
+    font-style: oblique;
+    font-size: 1.8rem;
+    color: rgb(199, 175, 41);
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+  
+  
+  #box-1{
+    border: 2px solid #000;
+    width: 280px;
+    margin-left: 120px;
+    /* position: relative; */
+    overflow: hidden;
+    height: 200px;
+  }
+
+ 
+#box-2{
+  border: 2px solid #000;
+  width: 280px;
+  margin-left: 120px;
+  margin-top: 300px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+} 
+
+#box-3{
+  border: 2px solid #000;
+  width: 280px;
+  margin-left: 120px;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+
+#box-4{
+  border: 2px solid #000;
+  width: 280px;
+  margin-left: 120px;
+  margin-top: -700px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+} 
+
+}

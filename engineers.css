@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+        #section{
+        height: 667px;
+        width: 1365px;
+        background: url("bg.jpg");
+          position: absolute;
+        background-repeat: no-repeat;
+        justify-content: center;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    #homes{
+        margin-top: -70px;
+        margin-left: 100px;
+        background-color:gainsboro;
+       width: 700px;
+       height: 600px;
+       border-radius: 40px;       
+
+    }
+    #heading{
+        margin-top: 100px;
+        margin-left: 250px;
+        font-size: 1.8rem;
+        text-decoration: underline;
+    }
+    #form{
+    margin-top: 70px;
+    margin-left: 100px;
+    }
+
+    .label{
+        font-size: 1.2rem;
+    }
+
+    .buttons{
+        font-size:medium;
+        height: 30px;
+        width: 100px;
+        border-radius: 8px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    #submit{
+        background-color:rgba(24, 226, 209, 0.911);
+        color: blue;
+    }
+    #reset{
+        background-color:rgba(24, 226, 209, 0.911);
+        color:blue;
+    }
+
+  #back{
+    background-color:rgba(24, 226, 209, 0.911);
+    color: blue;
+  }

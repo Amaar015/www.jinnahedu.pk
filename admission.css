@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navebar{
+    display: flex;
+    /* position: fixed; */
+    }
+    /* listitem */
+    #navebar  ul{
+        margin-left: 200px;
+    display: flex;
+    position:fixed;
+    }
+    #navebar::before{
+        content: " ";
+        background-color: rgba(24, 226, 209, 0.911);
+        margin-top: -10px;
+        position:fixed;
+        height: 10%;
+        width: 110%;
+        margin-left: -8px;
+     
+    }
+    #navebar ul li{
+        margin-left: 40px;
+        margin-top: 20px;
+        list-style: none;
+        font-size: 1.3rem;
+    }
+    #navebar ul li a{
+        margin-left: 30px;
+    display:block;
+    border-left: solid;
+    position:relative;
+    color:blue;
+    text-decoration: none;
+    }
+    #navebar ul li a:hover{
+        color:white;
+        background-color: blue;
+        border-radius: 6px;
+    }
+    #navebar ul li a:active{
+        color:black;
+        background-color: rgba(4, 218, 15, 0.849);
+    }
+    #search{
+        height: 15px;
+        width: 80px;
+        margin-left: 200px;
+        margin-top: 21px;
+
+    }
+    #button{
+        height: 20px;
+        width: 60px;
+        background-color: aquamarine;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        /* margin-left: 100px; */
+        margin-top: 20px;
+
+    }
+
+
+#Admission{
+    content: "";
+    position: absolute;
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 667px;
+    width: 1366px;
+    z-index: -1;
+}
+.head1{
+    font-size: 1.9rem;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.head2{
+    margin-left: 60px;
+    text-decoration: double underline;
+}
+.list{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.paras{
+    margin-left: -20px;
+}
+.btn{
+    font-size: 1.2rem;
+    font-size: large;
+    height: 30px;
+    background-color: red;
+    width: 100px;
+    color: silver;
+    border-radius: 8px;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    margin-left: 30px;;
+    margin-top: 20px;
+    animation-name: button;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes button{
+    60%{
+        background-color: green;
+    }
+}
+
+.head7{
+    font-size: 1.9rem;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+/* .head8{
+    margin-left: 630px;
+    text-decoration: double underline;
+} */
+.list0{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.paras0{
+    margin-left: -20px;
+}
+.btn0{
+    /* font-size: 1.2rem; */
+    font-size: large;
+    height: 30px;
+    background-color: red;
+    width: 100px;
+    color: silver;
+    border-radius: 8px;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    margin-left: 30px;;
+    margin-top: 20px;
+    animation-name: button1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes button1{
+    60%{
+        background-color: green;
+    }
+}
+
+
+.head3{
+    font-size: 1.9rem;
+    margin-top: -560px;
+    margin-left: 530px;
+}
+.head4{
+    margin-left: 570px;
+    text-decoration: double underline;
+}
+.list1{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 550px;
+}
+.paras1{
+    margin-left: -20px;
+}
+.btn1{
+    /* font-size: 1.2rem; */
+    font-size: large;
+    height: 30px;
+    background-color: red;
+    width: 100px;
+    color: silver;
+    border-radius: 8px;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    margin-left: 530px;;
+    margin-top: 20px;
+    animation-name: button2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes button2{
+    60%{
+        background-color: green;
+    }
+}
+
+.head5{
+    font-size: 1.9rem;
+    margin-top: 80px;
+    margin-left: 520px;
+}
+.head6{
+    margin-left: 1050px;
+    text-decoration: double underline;
+}
+.list2{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 540px;
+}
+.paras2{
+    margin-left: -20px;
+}
+.btn2{
+    /* font-size: 1.2rem; */
+    font-size: large;
+    height: 30px;
+    background-color: red;
+    width: 100px;
+    color: silver;
+    border-radius: 8px;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    margin-left: 520px;;
+    margin-top: 20px;
+    animation-name: button3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes button3{
+    60%{
+        background-color: green;
+    }
+}
